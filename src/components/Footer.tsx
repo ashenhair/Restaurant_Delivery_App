@@ -1,11 +1,14 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className="h-12 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-between">
+      <Link href="/" className='font-bold'>Privacy Policy</Link>
+      <p>© 2023, Pizza Ranch, Inc.</p>
     </div>
   )
 }
 
 export default Footer
+
