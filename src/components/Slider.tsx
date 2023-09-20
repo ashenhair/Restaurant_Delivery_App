@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Slider = () => {
   return (
     <div className='flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)]'>
-        {/* TEXT CONTAINER */}
+        
         <div className='h-1/2flex items-center justify-center flex-col gap-8 text-red-800 font-bold'>
         <h1 className='text-5xl text-center uppercase p-4 md:text-6xl xl:text-7xl'>
             Test
