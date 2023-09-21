@@ -15,7 +15,6 @@ const Slider = () => {
         <div className='w-full h-1/2 relative'>
             <Image src="/slide1.png" alt="" fill className='object-cover'/>
         </div>
-
     </div>
   )
 }
