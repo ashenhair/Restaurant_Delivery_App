@@ -32,6 +32,7 @@ const Slider = () => {
         setCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)),
       4000
     );
+    
     return () => clearInterval(interval);
   }, []);
 
